@@ -7,8 +7,12 @@ function App() {
 
   return (
     <>
-      <Hotbar/>
-      <Header />
+      <Hotbar />
+      <Header 
+        titulo = 'Crie seus vídeos online'
+        subtitulo = 'Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.'
+        botao = 'Começar agora!'
+      />
       <Cards />
     </>
   )
