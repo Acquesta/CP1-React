@@ -9,7 +9,7 @@ export default function Header() {
                     <h3>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</h3>
                     <button>Começar agora!</button>
                 </div>
-                <img src="../../../public/HeroImage.png" alt="imagem de um cara pulando sendo editada" />
+                <img className='header__img' src="../../../public/HeroImage.png" alt="imagem de um cara pulando sendo editada" />
             </div>
         </>
     )

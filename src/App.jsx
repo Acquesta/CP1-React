@@ -1,3 +1,4 @@
+import Cards from "./components/cards"
 import Header from "./components/header"
 import Hotbar from "./components/hotbar"
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Hotbar/>
       <Header />
+      <Cards />
     </>
   )
 }

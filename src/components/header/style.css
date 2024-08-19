@@ -31,8 +31,9 @@ button{
     color: #fff;
     font-weight: 500;
     font-size: 22px;
+    cursor: pointer;
 }
 
-img{
+.header__img{
     width: 45%;
 }
