@@ -22,7 +22,7 @@ h3{
     font-weight: 400;
 }
 
-button{
+.header__button{
     width: 50%;
     background-color: #333333;
     padding: 24px 56px;
