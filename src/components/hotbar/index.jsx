@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 export default function Hotbar() {
@@ -6,20 +6,20 @@ export default function Hotbar() {
         <>
             <ul>
                 <li>
-                    <NavLink 
+                    <Link 
                         to = '/'
                         className = 'navLink'
                     >
                         Home
-                    </NavLink>
+                    </Link>
                 </li>
                 <li>
-                    <NavLink
+                    <Link
                         to = '/sobre'
                         className = 'navLink'
                     >
                         Sobre
-                    </NavLink>
+                    </Link>
                 </li>
                 <li>Contato</li>
             </ul>

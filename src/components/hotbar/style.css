@@ -11,6 +11,6 @@ li a{
     color: #333333;
 }
 
-ul a.active {
+li .active {
     text-decoration: underline;
 }
