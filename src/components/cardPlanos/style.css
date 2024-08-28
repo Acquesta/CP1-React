@@ -1,18 +1,27 @@
 .cardPlano{
     border: 2px solid #EBE9E9;
     border-radius: 25px;
+    height: 389px;
 }
 
 .cardPlano h3{
-    background-color: #6975E8;
+    /* background-color: #6975E8; */
     padding: 25px 77px;
     border-radius: 25px 25px 0 0 ;
+}
+
+.cardPlanos__infos{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 23px;
 }
 
 .cardPlanos__infos p{
     color: #8790A3;
     font-size: 12px;
-    margin: 23px 16px 10px 16px;
+    margin: 10px 16px;
 }
 
 .cardPlanos__infos h4{
@@ -28,5 +37,10 @@
 }
 
 .cardPlano__button{
-    
+    margin: 1rem 7px 0;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #2F2E41 ;
 }

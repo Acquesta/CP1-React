@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.titulo__planos{
+    margin: 2rem 0;
+}
+
 .planos{
     display: flex;
     gap: 1rem;
