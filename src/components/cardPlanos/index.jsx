@@ -10,8 +10,10 @@ function CardPlano({ fundo, corBotao, borda, titulo, inputs, textoBotao, img }) 
                         <p>{plano.label}</p>
                         <h4>{plano.input}<span className='bold'> {plano.span}</span></h4>
                     </div>
-                ))}
-                <img src={img} alt="" />
+                ))
+                }
+                {img ? <img className='img' src={img} alt="" /> : false}
+                
                 <button style={{backgroundColor: fundo, color: corBotao, border: borda == false ? 'none' : '2px solid #EBE9E9' }} className="cardPlano__button">
                     {textoBotao}
                 </button>
