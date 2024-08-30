@@ -1,6 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 64px;
 }
 
@@ -13,6 +14,7 @@
 }
 
 h1{
+    width: 80%;
     font-size: 60px;
     font-weight: 700;
 }
@@ -34,6 +36,80 @@ h3{
     cursor: pointer;
 }
 
+.icones{
+    display: flex;
+    width: 30% ;
+    justify-content: space-between;
+}
+
+.barra{
+    background-color: #B9B7B7;
+    height: 522px;
+    width: 2px;
+    margin-top: 50px;
+}
+
 .header__img{
     width: 45%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 50%;
+    gap: 20px;
+    font-size: 28px;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 512px;
+
+}
+
+.input [type="text"]{
+    width: 391px;
+    height: 32px;
+    border-radius: 30px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 4px 6px #e4e4e4;
+}
+
+.input-mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 512px;
+
+}
+
+textarea{
+    margin-top: 15px;
+    width: 507px;
+    height: 229px;
+    border-radius: 30px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 4px 6px #e4e4e4;
+}
+
+.contato__button{
+    align-self: flex-end;
+    width: 225px;
+    height: 34px;
+    background-color: #6975E8;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botao{
+    align-self: flex-end;
+    margin-right: 192px;
 }
